@@ -33,9 +33,9 @@ style:
   translucency: true      # 透明度總開關
 
   # 淺色主题
-  color_scheme: native # phub
+  color_scheme: wechat_dark # phub
   # 深色主题
-  color_scheme_dark: native # phub
+  color_scheme_dark: wechat_dark # phub
 
   # 默認界面設置 (會被具體主題覆寫)
   font_point: 14
@@ -143,7 +143,7 @@ preset_color_schemes:
     corner_radius: 6
     border_height: 6
     border_width: 6
-    font_point: 16
+    font_point: 22
     label_font_point: 12
     label_color: 0x888888
     text_color: 0x808080
@@ -166,7 +166,7 @@ preset_color_schemes:
     border_width: 0
     back_color: 0xFFFFFF  #候选条背景色
     font_face: "PingFangSC-Regular,HanaMinB"  #候选词字体
-    font_point: 16  #候选字词大小
+    font_point: 22  #候选字词大小
     text_color: 0x424242  #高亮选中词颜色
     label_font_face: "STHeitiSC-Light"   #候选词编号字体
     label_font_point: 12   #候选编号大小
@@ -210,7 +210,7 @@ preset_color_schemes:
     border_height: 6                        # 窗口边界高度，大于圆角半径才生效
     border_width: 6                         # 窗口边界宽度，大于圆角半径才生效
     font_face: "PingFangSC"                 # 候选词字体
-    font_point: 16                          # 候选字词大小
+    font_point: 22                          # 候选字词大小
     label_font_point: 14                    # 候选编号大小
 
     text_color: 0xdedddd                    # 拼音行文字颜色，24位色值，16进制，BGR顺序
@@ -254,7 +254,7 @@ preset_color_schemes:
     border_height: 4                             # 窗口上下高度，大于圆角半径才生效
     border_width: 4                              # 窗口左右宽度，大于圆角半径才生效
     font_face: "PingFangSC"                      # 候选词字体
-    font_point: 16                               # 候选字大小
+    font_point: 22                               # 候选字大小
     label_font_point: 13                         # 候选编号大小
     text_color: 0x424242                    # 拼音行文字颜色
     back_color: 0xFFFFFF                    # 候选条背景色
@@ -277,7 +277,7 @@ preset_color_schemes:
     border_height: 4                             # 窗口上下高度，大于圆角半径才生效
     border_width: 4                              # 窗口左右宽度，大于圆角半径才生效
     font_face: "PingFangSC"                      # 候选词字体
-    font_point: 16                               # 候选字大小
+    font_point: 22                               # 候选字大小
     label_font_point: 13                         # 候选编号大小
     text_color: 0x424242                    # 拼音行文字颜色
     back_color: 0x252a2e                    # 候选条背景色
@@ -301,7 +301,7 @@ preset_color_schemes:
     border_height: 4                             # 窗口上下高度，大于圆角半径才生效
     border_width: 4                              # 窗口左右宽度，大于圆角半径才生效
     font_face: "PingFangSC"                      # 候选词字体
-    font_point: 16                               # 候选字大小
+    font_point: 22                               # 候选字大小
     label_font_point: 13                         # 候选编号大小
     text_color: 0x424242                    # 拼音行文字颜色
     back_color: 0xFFFFFF                    # 候选条背景色
@@ -324,7 +324,7 @@ preset_color_schemes:
     border_height: 4                             # 窗口上下高度，大于圆角半径才生效
     border_width: 4                              # 窗口左右宽度，大于圆角半径才生效
     font_face: "PingFangSC"                      # 候选词字体
-    font_point: 16                               # 候选字大小
+    font_point: 22                               # 候选字大小
     label_font_point: 13                         # 候选编号大小
     text_color: 0x424242                    # 拼音行文字颜色
     back_color: 0xFFFFFF                    # 候选条背景色
@@ -344,7 +344,7 @@ preset_color_schemes:
     candidate_format: "%c %@ "    # 用 1/6 em 空格 U+2005 来控制编号 %c 和候选词 %@ 前后的空间
     corner_radius: 5                             # 窗口圆角
     font_face: "PingFangSC"                      # 候选词字体
-    font_point: 16                               # 候选字大小
+    font_point: 22                               # 候选字大小
     label_font_point: 13                         # 候选编号大小
     line_spacing: 10                              # 行间距(适用于竖排)
     text_color: 0x424242                    # 拼音行文字颜色
@@ -363,7 +363,7 @@ preset_color_schemes:
     name: 幽能
     candidate_format: "%c %@ "    # 用 1/6 em 空格 U+2005 来控制编号 %c 和候选词 %@ 前后的空间
     corner_radius: 5                             # 窗口圆角
-    font_point: 16                               # 候选文字大小
+    font_point: 22                               # 候选文字大小
     label_font_point: 14                         # 候选编号大小
     line_spacing: 10                              # 行间距(适用于竖排)
     text_color: 0xc2c2c2                     # 拼音行文字颜色
@@ -380,7 +380,7 @@ preset_color_schemes:
   win10:
     candidate_format: "%c %@  "       # 如果是竖排建议改为 "%c\u2005%@"
     font_point: 17              # 候选文字大小
-    label_font_point: 16        # 候选编号大小
+    label_font_point: 22        # 候选编号大小
     corner_radius: 0            # 候选条圆角
     border_width: 6             # 窗口左右宽度
     border_height: 6            # 窗口左右高度
@@ -408,7 +408,7 @@ preset_color_schemes:
     name: 日光石
     candidate_format: "%c %@ "    # 用 1/6 em 空格 U+2005 来控制编号 %c 和候选词 %@ 前后的空间
     corner_radius: 6                             # 窗口圆角
-    font_point: 16                               # 候选文字大小
+    font_point: 22                               # 候选文字大小
     label_font_point: 15                         # 候选编号大小
     line_spacing: 10                             # 行间距(适用于竖排)
     text_color: 0x8236d3                     # 拼音行文字颜色
@@ -426,7 +426,7 @@ preset_color_schemes:
     name: 夜光石
     candidate_format: "%c %@ "    # 用 1/6 em 空格 U+2005 来控制编号 %c 和候选词 %@ 前后的空间
     corner_radius: 6                             # 窗口圆角
-    font_point: 16                               # 候选文字大小
+    font_point: 22                               # 候选文字大小
     label_font_point: 15                         # 候选编号大小
     line_spacing: 10                             # 行间距(适用于竖排)
     text_color: 0xA1A095                     # 拼音行文字颜色
@@ -446,7 +446,7 @@ preset_color_schemes:
   google:
     name: 谷歌
     candidate_format: "%c %@ "    # 用 1/6 em 空格 U+2005 来控制编号 %c 和候选词 %@ 前后的空间
-    font_point: 16                           # 候选文字大小
+    font_point: 22                           # 候选文字大小
     label_font_point: 15                     # 候选编号大小
     corner_radius: 6                         # 窗口圆角
     line_spacing: 10                         # 行间距(适用于竖排)
@@ -465,7 +465,7 @@ preset_color_schemes:
   milan:
     name: 米兰
     candidate_format: "%c %@ "    # 用 1/6 em 空格 U+2005 来控制编号 %c 和候选词 %@ 前后的空间
-    font_point: 16                           # 候选文字大小
+    font_point: 22                           # 候选文字大小
     label_font_point: 14                     # 候选编号大小
     line_spacing: 8                          # 行间距
     border_height: 4                             # 窗口上下高度，大于圆角半径才生效
@@ -480,7 +480,7 @@ preset_color_schemes:
   ink:
     name: 墨池
     candidate_format: "%c %@ "    # 用 1/6 em 空格 U+2005 来控制编号 %c 和候选词 %@ 前后的空间
-    font_point: 16                           # 候选文字大小
+    font_point: 22                           # 候选文字大小
     label_font_point: 14                     # 候选编号大小
     corner_radius: 5                         # 窗口圆角
     line_spacing: 10                         # 行间距(适用于竖排)
@@ -496,7 +496,7 @@ preset_color_schemes:
   purity:
     name: 纯洁
     candidate_format: "%c %@ "    # 用 1/6 em 空格 U+2005 来控制编号 %c 和候选词 %@ 前后的空间
-    font_point: 16                           # 候选文字大小
+    font_point: 22                           # 候选文字大小
     label_font_point: 14                     # 候选编号大小
     corner_radius: 5                         # 窗口圆角
     line_spacing: 10                         # 行间距(适用于竖排)
@@ -512,7 +512,7 @@ preset_color_schemes:
   starcraft:
     name: 星际争霸
     candidate_format: "%c %@ "    # 用 1/6 em 空格 U+2005 来控制编号 %c 和候选词 %@ 前后的空间
-    font_point: 16                           # 候选文字大小
+    font_point: 22                           # 候选文字大小
     label_font_point: 14                     # 候选编号大小
     corner_radius: 5                         # 窗口圆角
     line_spacing: 10                         # 行间距(适用于竖排)
@@ -530,7 +530,7 @@ preset_color_schemes:
   nord_light:
     name: 北方浅色
     candidate_format: "%c %@ "    # 用 1/6 em 空格 U+2005 来控制编号 %c 和候选词 %@ 前后的空间
-    font_point: 16                           # 候选文字大小
+    font_point: 22                           # 候选文字大小
     label_font_point: 14                     # 候选编号大小
     corner_radius: 5                         # 窗口圆角
     line_spacing: 10                         # 行间距(适用于竖排)
@@ -547,7 +547,7 @@ preset_color_schemes:
   nord_dark:
     name: 北方深色
     candidate_format: "%c %@ "    # 用 1/6 em 空格 U+2005 来控制编号 %c 和候选词 %@ 前后的空间
-    font_point: 16                           # 候选文字大小
+    font_point: 22                           # 候选文字大小
     label_font_point: 14                     # 候选编号大小
     corner_radius: 5                         # 窗口圆角
     line_spacing: 10                         # 行间距(适用于竖排)
@@ -592,7 +592,7 @@ preset_color_schemes:
     candidate_text_color: 0x222222            # 颜色 - 其它候选词 - 文字
     comment_text_color: 0x5AC461              # 颜色 - 其它候选词 - 提示编码
     comment_font_face: PingFang SC            # 字体 - 候选词编码的提示
-    comment_font_point: 16                    # 字体大小 - 候选词编码的提示
+    comment_font_point: 22                    # 字体大小 - 候选词编码的提示
 
     inline_preedit: true                      # 输入的编码是否直接写入到输入框中，如果为 false，未上屏的编码就会写在候选框中
     spacing: 5                                # 当 inline_preedit 为 false 时，编码会出现在候选面板中，该值控制编码与候选词之间的距离
@@ -855,7 +855,7 @@ preset_color_schemes:
     border_height: 0
     border_width: 0
     font_face: "LXGWWenKai-Regular,PingFangSC"
-    font_point: 16.5
+    font_point: 22.5
     label_font_face: "LXGWWenKai-Regular,PingFangSC"
     label_font_point: 12
     color_space: display_p3
@@ -881,7 +881,7 @@ preset_color_schemes:
     border_height: 0
     border_width: 0
     font_face: "LXGWWenKai-Regular,PingFangSC"
-    font_point: 16.5
+    font_point: 22.5
     label_font_face: "LXGWWenKai-Regular,PingFangSC"
     label_font_point: 12
     color_space: display_p3
@@ -912,7 +912,7 @@ preset_color_schemes:
     corner_radius: 5
     hilited_corner_radius: 5
     font_face: PingFangSC
-    font_point: 16
+    font_point: 22
     hilited_candidate_back_color: 0x75B100
     hilited_candidate_text_color: 0xFFFFFF
     candidate_list_layout: linear
@@ -933,7 +933,7 @@ preset_color_schemes:
     corner_radius: 5
     hilited_corner_radius: 5
     font_face: PingFangSC
-    font_point: 16
+    font_point: 22
     hilited_candidate_back_color: 0x75B100
     hilited_candidate_text_color: 0xFFFFFF
     candidate_list_layout: linear

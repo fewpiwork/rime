@@ -58,15 +58,22 @@ switcher:
 # clear        清除未上屏内容，然后切换到英文
 # inline_ascii 切换到临时英文模式，按回车上屏后回到中文状态
 # noop         屏蔽快捷键，不切换中英，但不要屏蔽 CapsLock
+# ascii_composer:
+#   good_old_caps_lock: true  # true | false
+#   switch_key:
+#     Caps_Lock: clear      # commit_code | commit_text | clear
+#     Shift_L: commit_code  # commit_code | commit_text | inline_ascii | clear | noop
+#     Shift_R: noop  # commit_code | commit_text | inline_ascii | clear | noop
+#     Control_L: noop       # commit_code | commit_text | inline_ascii | clear | noop
+#     Control_R: noop       # commit_code | commit_text | inline_ascii | clear | noop
 ascii_composer:
-  good_old_caps_lock: true  # true | false
+  good_old_caps_lock: true
   switch_key:
-    Caps_Lock: clear      # commit_code | commit_text | clear
-    Shift_L: commit_code  # commit_code | commit_text | inline_ascii | clear | noop
-    Shift_R: noop         # commit_code | commit_text | inline_ascii | clear | noop
-    Control_L: noop       # commit_code | commit_text | inline_ascii | clear | noop
-    Control_R: noop       # commit_code | commit_text | inline_ascii | clear | noop
-
+    Caps_Lock: commit_code
+    Control_L: noop
+    Control_R: noop
+    Shift_L: commit_code
+    Shift_R: commit_code
 
 ###################################################################################
 
@@ -241,6 +248,7 @@ key_binder:
     - {accept: KP_8, send: 8, when: composing}
     - {accept: KP_9, send: 9, when: composing}
     - {accept: KP_Decimal, send: period, when: composing}
+    - {accept: KP_Enter, send: Return, when: composing}
 
 
 # 按键速查
@@ -356,3 +364,11 @@ key_binder:
 # KP_7	小键板7
 # KP_8	小键板8
 # KP_9	小键板9
+
+# patch:
+#   "key_binder/bindings":
+#     - {accept: bracketleft, send: Page_Up, when: paging}
+#     - {accept: bracketright, send: Page_Down, when: has_menu}
+#     - {accept: minus, send: Page_Up, when: paging}
+#     - {accept: equal, send: Page_Down, when: has_menu}
+#     - {accept: KP_Enter, send: Return, when: composing}
